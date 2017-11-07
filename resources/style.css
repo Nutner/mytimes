@@ -6,24 +6,72 @@ display: flex;
 border-bottom: 1px solid black;
 }
 .logo{
-display: flex;
+display: inline-flex;
 align-items: center;
 color: MediumAquamarine;
 margin-bottom: 10px;
 }
 .logo p{
  margin: 10px;
-
 }
 
-nav {
-display: inline-flex;
-flex-wrap: wrap;
-align-items: center;
-flex-grow: 1;
-justify-content: flex-end;
-flex-basis: 20px;
+.navi {
+  display:flex;
+  width: 100%;
+  border: 1px solid yellow;
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+
+
 }
 nav span {
   margin: 10px;
+}
+
+
+
+
+.main.container{
+  display: flex;
+  border: 1px solid black;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.large, .medium, .small {
+  margin: 20px;
+}
+
+.large {
+  width: 630px;
+  border: 1px solid black;
+}
+.medium {
+  width: 300px;
+  border: 1px solid black;
+}
+.small {
+  width: 240px;
+  border: 1px solid black;
+
+}
+.mother {
+  border: 1px solid black;
+}
+.earth {
+  border: 1px solid black;
+}
+.burguer {
+  border: 2px solid black;
+}
+.research {
+  border: 1px solid black;
+
+}
+
+.Orca {
+  border: 2px solid black;
 }
